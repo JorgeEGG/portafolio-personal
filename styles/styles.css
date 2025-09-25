@@ -2,6 +2,9 @@
 
 :root {
     /* --color-primario: #1C2541; */
+    /* --color-primario: #0B132B;
+    --color-secundario: #FFFFFF;
+    --color-terciario: #5BC0BE; */
     --color-primario: #0B132B;
     --color-secundario: #FFFFFF;
     --color-terciario: #5BC0BE;
@@ -30,7 +33,7 @@ body{
 .header__menu {
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 20px;
 }
 
 .header__menu__link {
@@ -39,6 +42,10 @@ body{
     font-weight: 600;
     color: var(--color-terciario);
     text-decoration: none;
+}
+
+.header__menu__link:hover {
+    color: var(--color-secundario);
 }
 
 .presentacion {
@@ -82,6 +89,10 @@ body{
     font-family: var(--fuente-krona);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+.presentacion__enlaces__subtitulo:hover{
+    color: var(--color-terciario);
 }
 
 .presentacion__enlaces__link {
